@@ -22,3 +22,8 @@ def calcular_desconto(self, subtotal, cupom):
     else:
       desconto = 0
     return desconto
+
+def classificar_pedido(self, subtotal):
+    """
+    Retorna uma das três classificações da página anterior.
+    """
